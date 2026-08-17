@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dvoid — Make Something Out of Nothing",
+  metadataBase: new URL("https://dupevoid.net"),
+  title: "Dvoid — Each Drop Changes the Plan",
   description: "A custom Minecraft void-survival server with random drops, dungeons, and a daily-resetting world.",
+  openGraph: { title: "Dvoid — Each Drop Changes the Plan", description: "A custom Minecraft void-survival server with random drops, dungeons, and a daily-resetting world.", images: [{ url: "/og.png", width: 1200, height: 630, alt: "Dvoid — Random drops, dungeons, and a daily Verge." }] },
+  twitter: { card: "summary_large_image", title: "Dvoid — Each Drop Changes the Plan", images: ["/og.png"] },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
